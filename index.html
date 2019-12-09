@@ -2,7 +2,8 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="Your awesome title" />
@@ -23,101 +24,93 @@
 <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Solway&display=swap" rel="stylesheet">
 </head>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+<body >  
 
-<body>
-
-    <div class="top-bar" id = "topBar">
-        <a class = "top-bar-element" href="#" >Lens</a>
-        <a class = "top-bar-element" href="#">Pen</a>
-        <a class = "top-bar-element" href="#">Blog</a>
+    <div class = "top-box" id ="topBox">
+        <a class = "top-bar-element" href="#" >Fotos</a>
+        <a class = "top-bar-element" href="#">Product Blogs</a>
+        <a class = "top-bar-element" href="#">Poems</a>
         <a class = "top-bar-element" href="#">Home</a>
-    </div>
-  
-  <header class="site-header" role="banner">   
 
-    <div class = "wrapper">           
-    <a class="site-title" > Being  <br>
-   Rashnull. </a>        
     </div>
 
-</header>
-
-
-
-
-
-
-<main class="content" aria-label="Content">
-
-  <div class="wrapper">
-
-     
-         
+    <div class ="wrapper">   
+        <div class="site-header">
+            <a class="site-title" > Being  <br> Rashnull. </a>
+          <div class ="home-doodle">
+            <img src="svg/MeditatingDoodle.svg" > </img>
+          </div>
         </div>
-
-  
-
-  
-    <div class = "blog-row">
-      <div class ="blog-column">
-        <h2>hello</h2>
       </div>
-      
-        <div class ="blog-column">
-            <h2>hello</h2>
-        </div>
+       
+         <div class = "container">
+           <div class = "img-section" style = "background-color: #fffd8d">    
+                  <img class = "image" src ="svg/SwingingDoodle.svg"  > </img>
+           </div>
 
-        <div class ="blog-column">
-            <h2>hello</h2>
-        </div>
+           <div class ="text-section" >
+             <div class = "text-content">            
+             <h1 class = "text-title"> The Irresistible Musings</h1>
+             <p class = "text"> Random thoughts poured into the glass of short poems. <br>
+                Children of lazy weekend afternoons</p>
+            <br><button class = "button">Read Poems</button>
+           </div>
+          </div>
+         </div>
 
-
-    </div>
-
-
-    <div class = "blog-row">
-
-        <div class ="blog-column">
-            <h2>hello</h2>
-        </div>
+          <div class = "container">
+                
+              <div class ="text-section" style = "float: left">
+             <div class = "text-content">            
+             <h1 class = "text-title"> The Product Blogs</h1>
+             <p class = "text"> Learning new things everyday. <br>Trying to give it back to the community.</p>
+            <br> <button class = "button">Read Blogs</button>
+              </div>
+             </div>
         
-          <div class ="blog-column">
-              <h2>hello</h2>
-          </div>
+             <div class = "img-section" style = "background-color: #b2d8d8" style ="float:right">    
+                <img class = "image" src ="svg/ReadingDoodle.svg"  > </img>
+         </div>
+    </div>
+    <div class = "container">
+        <div class = "img-section" style = "background-color:	#e3d3b3">    
+               <img class = "image" src ="svg/composition.svg"  > </img>
+        </div>
 
-          <div class ="blog-column">
-              <h2>hello</h2>
-          </div>
-  
-          
+        <div class ="text-section" style = "float: left">
+            <div class = "text-content">            
+            <h1 class = "text-title"> The Insignificant Clicks</h1>
+            <p class = "text"> Nature, Animals, Beaches, Zoomed clicks.
+                In short, the ones which couldn't make it to Instagram.</p>
+           <br> <button class = "button">View Fotos</button>
+        </div>
+       </div>
       </div>
-
-      
-      </div>
-
-      <script>
+    
+    
+   </body>
+   <script>
           window.onscroll = function() {myFunction()};
           
-          var header = document.getElementById("topBar");
+          var header = document.getElementById("topBox");
           var sticky = header.offsetTop;
           
           function myFunction() {
             if (window.pageYOffset > sticky) {
-              header.classList.add("sticky", "divider");
+              header.classList.add("sticky", "border");
+              
             } else {
-              header.classList.remove("sticky", "divider");
+              header.classList.remove("sticky", "border");
+             
             }
           }
-          </script>
+    </script>
   
 
-    </main>
-
-<footer class="site-footer">
-    <!-- <data class="u-url" href="/"></data> -->
-  
-      
+ <footer class="site-footer">
+     
   
         <div class="footer_email">
             <i class="fa fa-envelope" aria-hidden="true" style="color: #2b2b28" ></i>         
