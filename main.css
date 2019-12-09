@@ -85,23 +85,19 @@ table td { border: 1px solid #e8e8e8; }
 
 
 .site-header {   
-  height: 300px; 
-  background-color: white;
+  height: 30%; 
   margin-top: 2%;
   margin-bottom: 7.5%; 
   font-family: 'Solway', serif;
-  font-size: 90px;
-  font-weight: 500;
-  line-height: 100px; 
+  line-height: 10%; 
   letter-spacing: 8px; 
   color: #1f202c;
+  display: flex;
   }
 
 .site-title {
 
-  float: left;  
-  z-index: -1; 
- 
+  float: left;    
   padding-top: 7.5%;
   color: #1f202c;
   width: 50%;
@@ -145,33 +141,36 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 
-.clearfix {
+/* .clearfix {
   overflow: auto;
-}
+} */
 
 .home-doodle{
-  float: right;
-  display: block;
+  float: right; 
   width: 50%;
 }
 
 .container{
-  height: 500px;
+  /* height: 500px; */
   margin-left: 0%;
-  display: block;
+  display: flex;
   font-family: 'Roboto', serif;
-  
-  /* margin-right:-12.5%;
-  margin-left: -12.5%;
-  margin-top: 10%;  */
+  }
+
+
+  @media only screen and (max-width: 768px){
+      [class="container"] {
+    width: 100%;
+  }
 }
 
 .img-section{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   height: inherit;
   width: 50%;
   float: left;
+  display: flex;
   
   }
 
@@ -182,7 +181,7 @@ table td { border: 1px solid #e8e8e8; }
 
 
   .text-section{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   height: inherit;
   width: 50%;
@@ -208,20 +207,40 @@ table td { border: 1px solid #e8e8e8; }
     letter-spacing: 1px;
   }
 
+
+
+  @media only screen and (max-width: 768px){
+    [class= "text-title"] {
+  font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  [class= "text"] {
+font-size: 10px;
+}
+}
+
+
+
   .button {
     background-color: black;
     border: none;
-    border-radius: 10px;
+    border-radius: 5%;
     color: white;
-    padding: 10px 10px;
+    padding: 3% 3%;
     text-align: center;
     text-decoration: none;
-    display: block;
-    font-size: 20px;
-    margin-top: 10px;
-       cursor: pointer;
+     margin-top: 5%;
+    cursor: pointer;
     float:center;
     font-weight: 200;
+  }
+
+  @media only screen and (max-width: 768px){
+    [class= "button"] {
+  font-size: 10px;
+  }
   }
 
 
