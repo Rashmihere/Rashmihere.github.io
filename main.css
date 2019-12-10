@@ -301,16 +301,15 @@ justify-content: center;
 .top-bar-element:hover {text-decoration: none }
 @media only screen and (max-width: 768px){
   [class="top-bar-element"] {
-  align-items: center;
-  
+  font-size: 15px;
 }
 }
-
+/* 
 @media only screen and (max-width: 768px){
   [class="top-box"] {
   align-items: center;
 }
-}
+} */
 
 
  
