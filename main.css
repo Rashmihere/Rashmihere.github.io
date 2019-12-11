@@ -240,6 +240,7 @@ justify-content: center;
   text-align: center;
   vertical-align: center;
   padding-left: 2%;
+  padding-top: 1%
   
 
 }
@@ -248,12 +249,13 @@ justify-content: center;
   display: flex; 
   font-family: 'Solway', serif; 
   float: left;
-  width: 5%;  
+  width: 8%;  
   padding: 1%;
+  padding-left: 3%
 }
 @media only screen and (max-width: 768px){
   [class="logo"] {
-    width: 3%; 
+    width: 10%; 
 }
 }
 
