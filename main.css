@@ -223,8 +223,14 @@ justify-content: center;
   display: flex;
   justify-content: space-between;
   width: 20%;
+  color: #2b2b28;
  }
 
+ @media only screen and (max-width: 768px){
+  [class="footer-content"] {
+    padding-right: 30%; 
+}
+}
  
  
  .top-box{
