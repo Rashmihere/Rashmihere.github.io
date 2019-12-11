@@ -171,7 +171,7 @@ font-size: 15px;
   .button {
     background-color: black;
     border: none;
-    width: 30%;
+    min-width: 30%;
     border-radius: 5%;
     color: white;
     text-align: center;
@@ -181,11 +181,11 @@ font-size: 15px;
     font-weight: bold;
   }
 
-  @media only screen and (max-width: 768px){
+  /* @media only screen and (max-width: 768px){
     [class= "button"] {
-     font-size: 10px;
+    width: 50%;
   }
-  }
+  } */
 
 
 
@@ -226,7 +226,7 @@ justify-content: center;
 
 .tabs {
   display: flex;
-  width: 90%;
+  width: 60%;
   justify-content: flex-end;
   margin: 0;
   padding: 1%;
