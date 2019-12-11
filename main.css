@@ -119,24 +119,35 @@ a:hover { text-decoration: none; }
     }
 
   .text-content{
-
     padding: 10%;
   }
 
   .text-title{
     font-size: 40px;
      font-weight: 400;
+     font-family: 'Solway',serif;
 
   }
 
 .site-title {   
   /* margin-bottom: 7.5%;  */
-  font-family: 'Poppins', serif;
+  font-family: 'Solway', serif;
   letter-spacing: 8px;
-  padding-left: 0;
-  font-size: 60px;    
+  font-size: 90px;    
   margin: 0;
    }
+
+.title-box
+{
+  height: inherit;
+  padding: 25%; 
+  padding-left: 0;
+  font-family: 'Solway', serif;
+  line-height: 10%; 
+  letter-spacing: 8px;
+  vertical-align: middle;
+
+}
 
 
   @media only screen and (max-width: 768px){
@@ -148,8 +159,8 @@ a:hover { text-decoration: none; }
 
   .text{
     font-size: 20px;
-    color: darkgray;
-    letter-spacing: 1px;
+    color: #606060;  
+    
   }
 
 
@@ -159,12 +170,12 @@ a:hover { text-decoration: none; }
   font-size: 20px;
 }
 }
-
+/* 
 @media only screen and (max-width: 768px){
   [class= "text"] {
 font-size: 15px;
 }
-}
+} */
 
 
 
@@ -213,6 +224,7 @@ justify-content: center;
   justify-content: space-between;
   width: 20%;
  }
+
  
  
  .top-box{
@@ -255,7 +267,7 @@ justify-content: center;
 }
 @media only screen and (max-width: 768px){
   [class="logo"] {
-    width: 10%; 
+    width: 15%; 
 }
 }
 
