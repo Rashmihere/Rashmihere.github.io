@@ -275,20 +275,15 @@ justify-content: center;
 .top-bar-element{
   display: flex; 
   font-family: 'Bebas Neue', serif; 
-  justify-content: space-between;
+  /* justify-content: space-between; */
   color: teal;
   text-align: center;
   vertical-align: center;
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   letter-spacing: 3px;
   font-size: 20px;
-  
-
-}
-
-
-
+ }
 
 .top-bar-element:visited {text-decoration: none}
 .top-bar-element:hover {text-decoration: none }
