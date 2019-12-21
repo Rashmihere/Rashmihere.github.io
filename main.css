@@ -1,9 +1,5 @@
 
 
-
-/** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
-
 /** Basic styling */
 body {  font-family: 'Roboto', serif;  color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
@@ -39,18 +35,6 @@ a:hover { text-decoration: none; color:teal }
 }
 
 
-/* .clearfix {
-  overflow: auto;
-} */
-
-.home-doodle{
-  float: right; 
-  width: 50%;
-}
-
-
-
-
 .page-banner
 {
   width:100%;
@@ -79,81 +63,57 @@ font-size: 30px;
 }
 }
 
-
-
-
-
-
-
-  @media only screen and (max-width: 768px){
-      [class="container"] {
-    width: 100%;
-  }
-}
-
-
-  .image{
-    width: -webkit-fill-available;
-  }
-
-
-
- 
-
-
 .container{
      
-      width:100%;
-      margin: 5%;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      display: flex;
-      font-family: 'Roboto', serif;
-      height: 30%;
+  width:100%;
+  margin: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  font-family: 'Roboto', serif;
+  height: 30%;
+}
+
+.image{
+    width: -webkit-fill-available;
+}
+
+.img-section{
+  display: flex;
+  /* height: inherit; */
+  width: 50%;
+  float: right;
+  padding: 5%;    
+}
+
+.text-section{
+    display: flex;
+    /* height: inherit; */
+    width: 50%;
+    float: left;
+    clear: left;
+    padding: 10%;
+    padding-bottom: 0;
  }
 
-
-  .img-section{
-      display: flex;
-      /* height: inherit; */
-      width: 50%;
-      float: right;
-      padding: 5%;    
-      
-       }
-
-  .text-section{
-        display: flex;
-        /* height: inherit; */
-        width: 50%;
-        float: left;
-        clear: left;
-        padding: 10%;
-        padding-bottom: 0;
-        
-        }
-
-
-        .title-box
-        {
-          height: inherit;
-          padding: 5%; 
-          padding-left: 0;
-          font-family: 'Solway', serif;
-          line-height: 10%; 
-          letter-spacing: 8px;
-          vertical-align: middle;
-        
-        }
-
+ .title-box{
+    height: inherit;
+    padding: 5%; 
+    padding-left: 0;
+    font-family: 'Solway', serif;
+    line-height: 10%; 
+    letter-spacing: 8px;
+    vertical-align: middle;
+   }
+ 
  .site-title {   
-            /* margin-bottom: 7.5%;  */
-            font-family: 'Solway', serif;
-            letter-spacing: 8px;
-            font-size: 90px;    
-            margin: 0;
-            vertical-align: middle;
-            }
+          
+    font-family: 'Solway', serif;
+    letter-spacing: 8px;
+    font-size: 90px;    
+    margin: 0;
+    vertical-align: middle;
+  }
 
     
   .text-content{
@@ -165,26 +125,19 @@ font-size: 30px;
     font-size: 40px;
     font-weight: 400;
     font-family: 'Solway',serif;
-
   }
 
-
-
-
+  .text{
+    font-size: 20px;
+    color: #606060;  
+  }
 
   @media only screen and (max-width: 768px){
     [class= "site-title"] {
   font-size: 25px;
 }
   }
-
-
-  .text{
-    font-size: 20px;
-    color: #606060;  
-    
-  }
-
+  
 
 
   @media only screen and (max-width: 768px){
@@ -272,10 +225,16 @@ justify-content: center;
   padding: 1%;
 }
 
+
+@media only screen and (max-width: 768px){
+  [class="tabs"] {
+  align-items: center;
+}
+} 
 .top-bar-element{
-  display: flex; 
+ 
   font-family: 'Bebas Neue', serif; 
-  /* justify-content: space-between; */
+  
   color: teal;
   text-align: center;
   vertical-align: center;
@@ -289,18 +248,18 @@ justify-content: center;
 .top-bar-element:hover {text-decoration: none }
 
 
- /* @media only screen and (max-width: 768px)
+ @media only screen and (max-width: 768px)
 {
   [class="top-bar-element"] {
-  padding-left: 4%;
-}
-}  */
-/* 
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+} 
 @media only screen and (max-width: 768px){
   [class="top-box"] {
   align-items: center;
 }
-} */
+} 
 
 .blog-card{
   height: 30%;
@@ -354,3 +313,4 @@ justify-content: center;
 
   }
  
+}
