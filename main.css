@@ -243,6 +243,8 @@ justify-content: center;
 
 .top-bar-element:hover {text-decoration: none }
 
+.top-bar-element a.active{ color: darkgrey;}
+
 
 
  @media only screen and (max-width: 768px)
