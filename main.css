@@ -279,36 +279,27 @@ justify-content: center;
   color: teal;
   text-align: center;
   vertical-align: center;
-  padding-left: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
   letter-spacing: 3px;
   font-size: 20px;
   
 
 }
 
-.logo{
-  display: flex; 
-  font-family: 'Solway', serif; 
-  float: left;
-  width: 8%;  
-  padding: 1%;
-  padding-left: 3%
-}
-@media only screen and (max-width: 768px){
-  [class="logo"] {
-    width: 15%; 
-}
-}
+
 
 
 .top-bar-element:visited {text-decoration: none}
 .top-bar-element:hover {text-decoration: none }
- @media only screen and (max-width: 768px)
+
+
+ /* @media only screen and (max-width: 768px)
 {
   [class="top-bar-element"] {
   padding-left: 4%;
 }
-} 
+}  */
 /* 
 @media only screen and (max-width: 768px){
   [class="top-box"] {
