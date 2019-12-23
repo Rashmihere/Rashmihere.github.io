@@ -5,17 +5,17 @@
   
   
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>Being Rashnull</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Your awesome title" />
+<!-- <meta property="og:title" content="Your awesome title" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." /> -->
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Your awesome title" />
 <script type="application/ld+json">
-{"@type":"WebSite","headline":"Your awesome title","url":"http://localhost:4000/","name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Being Rashnull","url":"http://localhost:4000/","name":"All about poems, blogs, photos","@context":"https://schema.org"}</script>
 
 
 <link rel="stylesheet" href="main.css">
@@ -33,8 +33,8 @@
 <body >  
 
     <div class = "tabs" id ="topBox">
-
-         <a class = "top-bar-element" href="index.html"> Home </a>
+      
+         <a class = "top-bar-element" class = "active" href="index.html"> Home </a>
         <a class = "top-bar-element" href="Poems.html"> Poems </a>
         <a class = "top-bar-element" href="Blogs.html">Blogs</a> 
         <a class = "top-bar-element" href="Lens.html">Lens</a> 
@@ -74,7 +74,13 @@
              <h1 class = "text-title"> The Irresistible Musings</h1>
              <h3 class = "text"> Random thoughts poured into the glass of short poems. <br>
                 Children of lazy weekend afternoons</h3>
-            <br><button class = "button"> <h4>Read Poems</h4></Read></button>
+            <br>
+            <a class = "button" href = "Poems.html">
+                Read Poems
+              </a>
+
+
+
            </div>
           </div>
          </div>
@@ -82,10 +88,16 @@
           <div class = "container">
                 
               <div class ="text-section" style = "float: left">
+
              <div class = "text-content">            
              <h1 class = "text-title"> The Product Blogs</h1>
+
              <h3 class = "text"> Learning new things everyday. <br>Trying to give it back to the community.</h3>
-            <br> <button class = "button" ><a href = "Blogs.html">Read Blogs</a></button>
+            <br>
+
+             <a class = "button" href = "Blogs.html">
+                Read Blogs
+              </a>
               </div>
              </div>
         
@@ -103,7 +115,10 @@
             <h1 class = "text-title"> The Insignificant Clicks</h1>
             <h3 class = "text"> Nature, Animals, Beaches, Zoomed clicks.
                 In short, the ones which couldn't make it to Instagram.</h3>
-           <br> <button class = "button"><h4>View Fotos</h4></button>
+           <br> 
+           <a class = "button" href = "Lens.html">
+              View Fotos
+            </a>
         </div>
        </div>
       </div>
@@ -114,8 +129,8 @@
           window.onscroll = function() {myFunction()};
           
           var header = document.getElementById("topBox");
-          var sticky = header.offsetTop;
-          
+
+          var sticky = header.offsetTop;          
           function myFunction() {
             if (window.pageYOffset > sticky) {
               header.classList.add("sticky", "border");
@@ -125,6 +140,20 @@
              
             }
           }
+        </script>
+        <script>
+ 
+  
+    var header = document.getElementById("topBox");
+    var btns = header.getElementsByClassName("top-bar-element");
+
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
     </script>
   
 
