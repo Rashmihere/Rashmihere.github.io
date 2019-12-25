@@ -18,6 +18,8 @@ a:visited { text-decoration: none;}
 a:hover { text-decoration: none; }
 
 
+
+
 /** Site header */
 
 .wrapper {  
@@ -247,9 +249,14 @@ justify-content: center;
   font-size: 20px;
  }
 
+
+
+
+
 .top-bar-element:visited {text-decoration: none}
 
 .top-bar-element:hover {text-decoration: none; color: darkgrey}
+
 
 
 
@@ -469,7 +476,30 @@ font-size: 7px;
   }}
 
 .connect{
-  padding: 5%;
+  padding: 2%;
   display: flex;
-  height: 10%
+  height: 7%
 }
+
+.profile{ 
+  height: 500px;
+  width: auto;
+}
+
+.twitter{ 
+  height: 100%;
+  width: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  [class="twitter" ] {
+  height: 50%;
+}}
+@media only screen and (max-width: 768px){
+  [class="profile" ] {
+  height: 200px;
+}}
