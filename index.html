@@ -28,13 +28,17 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+
+
 </head>
 
 <body >  
 
     <div class = "tabs" id ="topBox">
       
-         <a class = "top-bar-element" class = "active" href="index.html"> Home </a>
+         <a class = "top-bar-element" id = "element" href="index.html"> Home </a>
         <a class = "top-bar-element" href="Poems.html"> Poems </a>
         <a class = "top-bar-element" href="Blogs.html">Blogs</a> 
         <a class = "top-bar-element" href="Lens.html">Lens</a> 
@@ -127,9 +131,9 @@
    </body>
    <script>
           window.onscroll = function() {myFunction()};
-          
-          var header = document.getElementById("topBox");
 
+          
+         var header = document.getElementById("topBox");
           var sticky = header.offsetTop;          
           function myFunction() {
             if (window.pageYOffset > sticky) {
@@ -140,20 +144,10 @@
              
             }
           }
-        </script>
-        <script>
- 
+        
   
-    var header = document.getElementById("topBox");
-    var btns = header.getElementsByClassName("top-bar-element");
-
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-      });
-    }
+  
+    
     </script>
   
 
