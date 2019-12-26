@@ -237,6 +237,7 @@ justify-content: center;
   [class="tabs"] {
   align-items: center;
   padding:5%;
+  font-size: 15px;
 
 }
 } 
@@ -266,8 +267,8 @@ justify-content: center;
  @media only screen and (max-width: 768px)
 {
   [class="top-bar-element"] {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
     font-size: 15px;
 }} 
 
