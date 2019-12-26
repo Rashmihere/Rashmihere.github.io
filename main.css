@@ -236,6 +236,8 @@ justify-content: center;
 @media only screen and (max-width: 768px){
   [class="tabs"] {
   align-items: center;
+  padding:5%;
+
 }
 } 
 .top-bar-element{
