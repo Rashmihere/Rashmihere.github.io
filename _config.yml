@@ -1,1 +1,39 @@
-theme: jekyll-theme-cayman
+# Site
+name: "Mediumish"
+title: "Mediumish"
+description: "Jekyll template, Medium styled, free for bloggers."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+permalink: '/blogs/:title'
+
+# Authors
+authors:
+  rashmi:
+    name: Rashmi Shukla
+    display_name: Rashmi Shukla
+    gravatar: 451068476143e4b2f79c2491fa5f9afa
+    email: address@domain.com
+    web: https://beingrashnull.github.io
+    twitter: https://twitter.com/Being_Rashnull
+    description: "Just thinking out loud"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [Gemfile, Gemfile.lock]
