@@ -2,7 +2,7 @@
 layout: post
 title:  "Defining Product Metrics > How to measure a Product"
 author: rashmi
-image: assets/images/Twitter Post - 1
+image: assets/images/Pmetrics.png
 ---
 
 
