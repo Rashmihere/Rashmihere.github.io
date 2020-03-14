@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Defining Product Metrics > How to measure a Product"
+author: rashmi
+image: assets/images/Pmetrics.png
+---
+
 # Defining Product Metrics > How to measure a Product
 
 ## Notes from Suhail Doshi's talk at YC
@@ -22,7 +29,6 @@ and find it relevant.
 - Ratio of Single page visits to multiple pages engagement  - *Are users just visiting single pages and leaving or are they exploring more than that*
 
 - In a B2B product > No. of visits to pricing page - *Shows intent and interest of users*
-
 2. Is the product **easy to get started?**
 
      Users should be able to get the value proposition of the product easily.
@@ -39,7 +45,6 @@ and find it relevant.
 -  Don't try to optimise for bad/fake actors.
 
 - Try to make this step easier by reducing steps in starting with the product *e.g Google never asks for signing up / logging in before googling*
-
 3. Are people **coming back to use the product** 
 
 
@@ -60,4 +65,4 @@ Often as Product Managers, we may want to measure a bunch of things and may ulti
 
 So, while deciding metrics (and so to say any goals in life), keep asking this one question
 
-- **What am I exactly optimising for?**
+ **What am I exactly optimising for?**
