@@ -24,9 +24,9 @@ about the product
 and find it relevant.
      Key metrics which can be helpful in tracking this:
 
-- No. of Visitors & No. of Signups -  *This metric helps in iterating on landing pages design and in figuring out optimum design to make this step as easy as possible*
+     - No. of Visitors & No. of Signups -  *This metric helps in iterating on landing pages design and in figuring out optimum design to make this step as easy as possible*
 
-- Ratio of Single page visits to multiple pages engagement  - *Are users just visiting single pages and leaving or are they exploring more than that*
+     - Ratio of Single page visits to multiple pages engagement  - *Are users just visiting single pages and leaving or are they exploring more than that*
 
 - In a B2B product > No. of visits to pricing page - *Shows intent and interest of users*
 2. Is the product **easy to get started?**
@@ -34,18 +34,19 @@ and find it relevant.
      Users should be able to get the value proposition of the product easily.
      Key metrics which can be helpful in tracking this:
 
-- No. of users doing a valuable activity - *Basically defining what "active" is in Daily active users". This can be as simple as doing a search*
+     - No. of users doing a valuable activity - *Basically defining what "active" is in Daily active users". This can be as simple as doing a search*
 
-- Time taken to do a valuable activity on the app/website - *How easy/difficult it is for the users to finish a valuable task*
+     - Time taken to do a valuable activity on the app/website - *How easy/difficult it is for the users to finish a valuable task*
 
      Additionally, 
 
-- Measure funnel of the entire experience - from landing page to a valuable activity - Helps in identifying gaps and opportunities in user journey
+     - Measure funnel of the entire experience - from landing page to a valuable activity - Helps in identifying gaps and opportunities in user journey
 
--  Don't try to optimise for bad/fake actors.
+     -  Don't try to optimise for bad/fake actors.
 
-- Try to make this step easier by reducing steps in starting with the product *e.g Google never asks for signing up / logging in before googling*
-3. Are people **coming back to use the product** 
+     - Try to make this step easier by reducing steps in starting with the product *e.g Google never asks for signing up / logging in before googling*
+     
+3. Are people **coming back to use the product?** 
 
 
      No matter how many new users a product is able to acquire, it is the returning users that play a key role in defining long term success of a product.
