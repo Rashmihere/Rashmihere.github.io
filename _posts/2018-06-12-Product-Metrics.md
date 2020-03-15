@@ -5,7 +5,7 @@ author: rashmi
 image: assets/images/Pmetrics.png
 ---
 
-# Defining Product Metrics > How to measure a Product
+
 
 ## Notes from Suhail Doshi's talk at YC
 
@@ -45,7 +45,7 @@ and find it relevant.
      -  Don't try to optimise for bad/fake actors.
 
      - Try to make this step easier by reducing steps in starting with the product *e.g Google never asks for signing up / logging in before googling*
-     
+
 3. Are people **coming back to use the product?** 
 
 

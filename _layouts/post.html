@@ -6,6 +6,17 @@ post_class: post-template
 
 <!-- Begin Article
 ================================================== -->
+
+<div class = "tabs" id ="topBox">
+      
+    <a class = "top-bar-element" href="/"> Home </a>
+   <a class = "top-bar-element" href="poems.html"> Poems </a>
+   <a class = "top-bar-element" href="blogs.html">Blogs</a> 
+   <!-- <a class = "top-bar-element" href="lens">Lens</a>  -->
+   <a class = "top-bar-element" href="about.html">About</a> 
+
+ </div>
+
 <div class="container">
     <div class="row">
 
@@ -60,7 +71,7 @@ post_class: post-template
                 {{content}}
             </div>
 
-            <!-- Prev/Next -->
+            <!-- Prev/Next
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             {% if page.previous.url %}
             <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
@@ -69,12 +80,38 @@ post_class: post-template
             <a class="next d-block col-md-6 text-lg-right" href="{{ site.baseurl }}/{{page.next.url}}">{{page.next.title}} &raquo; </a>
             {% endif %}
             <div class="clearfix"></div>
-            </div>
+            </div> -->
 
         </div>
         <!-- End Post -->
 
     </div>
 </div>
+
+<footer class="site-footer">    
+  
+      
+
+    <div class="footer-element">
+      <a class="fa fa-envelope"  href="mailto:rashmishukla1808@gmail.com" style = "color:teal"></a>  
+     </div> 
+
+     <div class="footer-element">
+    <a  class = "fa fa-linkedin" href="https://www.linkedin.com/in/rashmi-shukla-7ba298104/" target="_blank" style = "color:teal"></a>
+  </div>
+    
+  <div class="footer-element">
+    <a class = "fa fa-twitter" href="https://twitter.com/being_RASHnull" target="_blank"  style = "color:teal"></a>
+  </div>
+
+  <div class="footer-element">
+    <a class = "fa fa-medium" href="https://medium.com/@rashmishukla"target="_blank" style = "color:teal" ></a>
+   </div>
+   
+
+
+</footer>
+
+
 <!-- End Article
 ================================================== -->
