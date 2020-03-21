@@ -329,7 +329,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: 'Solway', 'serif';
+    font-family: 'Arial', 'serif';
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -684,7 +684,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Solway', 'serif';
+    font-family: 'Arial', 'serif';
 }
 
 .article-post .h1,
@@ -710,8 +710,8 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: 'Solway', 'serif';
-    font-size: 2rem;
+    font-family: 'Arial', 'serif';
+    font-size: 12px;
 }
 
 .layout-page .article-post p {
@@ -724,7 +724,7 @@ img {
 
 .bottompagination span.navigation {
     display: block;
-    font-size: 0.93rem;
+    font-size: 10px;
     padding: 15px 0 0 0;
     text-align: center;
     margin-bottom: 0rem;
