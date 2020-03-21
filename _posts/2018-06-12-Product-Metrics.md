@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to measure a Product"
+title: Product Metrics
 author: rashmi
 image: assets/images/Pmetrics.png
 ---
