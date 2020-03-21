@@ -66,4 +66,4 @@ Often as Product Managers, we may want to measure a bunch of things and may ulti
 
 So, while deciding metrics (and so to say any goals in life), keep asking this one question
 
- **What am I exactly optimising for?**
+ **What am I optimising for?**
