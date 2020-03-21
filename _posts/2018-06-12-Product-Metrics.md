@@ -30,6 +30,7 @@ about the product
      - Ratio of Single page visits to multiple pages engagement  - *Are users just visiting single pages and leaving or are they exploring more than that*
 
      In a B2B product > No. of visits to pricing page - *Shows intent and interest of users*
+     
 2. Is the product **easy to get started?**
 
      Users should be able to get the value proposition of the product easily.
