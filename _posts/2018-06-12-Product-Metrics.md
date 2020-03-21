@@ -21,14 +21,15 @@ about the product
 1. Is the product **easy to understand?**
 
     Users visiting an app or website can be acquired only when they are able to make sense of the product
-and find it relevant.
+     and find it relevant.
+
      Key metrics which can be helpful in tracking this:
 
      - No. of Visitors & No. of Signups -  *This metric helps in iterating on landing pages design and in figuring out optimum design to make this step as easy as possible*
 
      - Ratio of Single page visits to multiple pages engagement  - *Are users just visiting single pages and leaving or are they exploring more than that*
 
-- In a B2B product > No. of visits to pricing page - *Shows intent and interest of users*
+     In a B2B product > No. of visits to pricing page - *Shows intent and interest of users*
 2. Is the product **easy to get started?**
 
      Users should be able to get the value proposition of the product easily.
@@ -38,7 +39,7 @@ and find it relevant.
 
      - Time taken to do a valuable activity on the app/website - *How easy/difficult it is for the users to finish a valuable task*
 
-     Additionally, 
+     Additionally:
 
      - Measure funnel of the entire experience - from landing page to a valuable activity - Helps in identifying gaps and opportunities in user journey
 
