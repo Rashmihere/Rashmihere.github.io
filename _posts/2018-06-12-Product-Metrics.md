@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Product Metrics
+title: Product Metrics - How to measure your Product
 author: rashmi
-image: assets/images/Pmetrics.png
+
 ---
 
 
 
-## Notes from Suhail Doshi's talk at YC
+### Notes from Suhail Doshi's talk at YC
 
 I recently watched this [video](https://www.youtube.com/watch?v=MABmQhOlmJA) by YC where Suhail Doshi (Co-founder of Mixpanel) talks on how to discover important facts about products.
 
