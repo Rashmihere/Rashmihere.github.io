@@ -66,7 +66,7 @@ section.recent-posts {
     border-bottom: 1px solid rgba(0, 0, 0, .125);
     margin-bottom: 25px;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 20px;
     margin-bottom: 27px;
 }
 
@@ -141,7 +141,7 @@ section.recent-posts {
 
 .listfeaturedtag h2.card-title,
 .listrecent h2.card-title {
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.25;
 }
@@ -304,7 +304,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainheading h1.posttitle {
@@ -330,7 +330,7 @@ span.post-read-more a:hover {
 
 .article-post {
     font-family: 'Arial', 'serif';
-    font-size: 1.1rem;
+    font-size: 15px;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
 }
@@ -711,7 +711,7 @@ h6 {
 
 .layout-page .article-post {
     font-family: 'Arial', 'serif';
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .layout-page .article-post p {
