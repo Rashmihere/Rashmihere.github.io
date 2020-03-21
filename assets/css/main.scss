@@ -1,7 +1,7 @@
----
-# Add a comment to make this file sass-y.
-# Change this file for any custom CSS.
----
+
+/// Add a comment to make this file sass-y.
+//Change this file for any custom CSS.
+
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
@@ -13,3 +13,527 @@
 	"syntax",
     "starsnonscss"
 ;
+
+
+/** Basic styling */
+body { font-family: 'Solway', 'serif'; color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+
+/** `main` element */
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/* h1, h2, h3, h4, h5, h6 {  } */
+
+/* Links*/
+
+a:visited { text-decoration: none;}
+
+a:hover { text-decoration: none; }
+
+
+
+
+/** Site header */
+
+.wrapper {  
+  
+  display: flex;
+  }
+
+
+ .sticky {
+  position: fixed;   
+}
+
+.border{
+  box-shadow: 0 10px 20px 0px rgba(0,0,0,.03)
+}
+
+
+.page-banner
+{
+  width:100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  
+  }
+.banner-text
+{
+  width: 50%;
+  font-size: 50px;
+  align-items: center;
+  float: left;
+  padding-left: 10%;
+  padding-top: 120px;
+  color:cornsilk;
+
+}
+
+@media only screen and (max-width: 768px){
+  [class="banner-text"] {
+font-size: 30px;
+}
+}
+
+.container{
+     
+  width:100%;
+  margin: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  height: 30%;
+}
+
+.image{
+    width: -webkit-fill-available;
+}
+
+.img-section{
+  display: flex;
+  /* height: inherit; */
+  width: 50%;
+  float: right;
+  padding: 5%;    
+}
+
+.text-section{
+    display: flex;
+    /* height: inherit; */
+    width: 50%;
+    float: left;
+    clear: left;
+    padding: 10%;
+    padding-bottom: 0;
+ }
+
+ .title-box {
+    height: inherit;
+    padding: 5%; 
+    padding-left: 0;
+    line-height: 10%; 
+    letter-spacing: 8px;
+    vertical-align: middle;
+   }
+ 
+ .site-title {   
+          
+    font-family: 'Solway', serif;
+    letter-spacing: 8px;
+    font-size: 90px;    
+    margin: 0;
+    vertical-align: middle;
+  }
+
+    
+  .text-content{
+    padding: 10%;
+    padding-left: 0;
+  }
+
+  .text-title{
+    font-family: 'Solway', serif;
+    font-size: 40px;
+    font-weight: 400;
+     }
+
+  .text{
+    font-size: 20px;
+    color: #606060;
+    line-height: 150%;  
+  }
+
+  @media only screen and (max-width: 768px){
+    [class= "site-title"] {
+  font-size: 25px;
+}
+  }
+  
+
+
+  @media only screen and (max-width: 768px){
+    [class= "text-title"] {
+  font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  [class= "text"] {
+font-size: 12px;
+}
+}
+
+
+
+  .button {
+    background-color: black;
+    border: none;
+    min-width: 30%;
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    float:center;
+      padding: 5%;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+  }
+  .button:visited{ text-decoration: none; color: white}
+
+  .button:hover {text-decoration: none; color: white}
+
+
+
+  @media only screen and (max-width: 768px){
+    [class= "button"] {
+    font-size: 15px;
+  }
+  }
+
+
+
+@media screen and (max-width: 800px) {
+   .wrapper {
+      max-width: -webkit-calc(800px - (30px)); 
+      max-width: calc(800px - (30px)); 
+      padding-right: 15px; 
+      padding-left: 15px; } }
+
+.site-footer{
+height: 30%;
+background-color: #f2f2f2;
+margin-top: 2%;
+font-family: 'Roboto', serif;  color: black;
+font-size: 20px;
+padding: 2%;
+display: flex;
+justify-content: center;
+}
+
+.footer-element
+{
+  
+  color: #008080;
+  text-align: center;
+  vertical-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  letter-spacing: 3px;
+  font-size: 20px;
+
+ 
+ }
+
+ 
+
+ /* @media only screen and (max-width: 768px){
+  [class="footer-content"] {
+    width: 50%; 
+}
+} */
+ 
+.tabs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0%;
+  padding: 2%;
+  background-color: #fff;
+}
+
+
+@media only screen and (max-width: 768px){
+  [class="tabs"] {
+  align-items: center;
+  padding:5%;
+  font-size: 15px;
+
+}
+} 
+.top-bar-element{
+ 
+  font-family: 'Bebas Neue', serif; 
+  color: teal;
+  text-align: center;
+  vertical-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  letter-spacing: 3px;
+  font-size: 20px;
+ }
+
+
+
+
+
+.top-bar-element:visited {text-decoration: none}
+
+.top-bar-element:hover {text-decoration: none; color: darkgrey}
+
+ @media only screen and (max-width: 768px)
+{
+  [class="top-bar-element"] {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 15px;
+}} 
+
+
+@media only screen and (max-width: 768px){
+  [class="top-box"] {
+  align-items: center;
+}
+} 
+
+
+
+.blogs-list{
+   
+  /* height: 500px; */
+   margin: 15%;
+   margin-top: 2%;
+  
+   font-family: 'Roboto', serif;
+   margin-bottom: 2%;
+ 
+}
+
+@media only screen and (max-width: 768px){
+  [class="blogs-list" ] {
+font-size: 20px;
+
+margin-top: 2%;
+margin: 8%;
+
+  }
+}
+
+.blog-card{
+ 
+ height: 250px;
+  width: 100%;
+  display: flex;
+
+}
+@media only screen and (max-width: 768px){
+  [class="blog-card" ] {
+    height: 200px;
+   
+
+}
+}
+
+
+.blog-img-section{
+ 
+  width: 50%;
+  float: left;
+  display: flex;
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 1%;
+  
+
+   }
+
+.blog-img{
+  width: inherit;
+  height: auto;
+  padding-top: calc(591.44 / 1127.34 * 100%);
+}
+
+.blog-card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none;
+}
+
+.blog-text-section{
+  align-items: center;
+  width: 50%;
+  float: right;
+  padding-left: 2%;
+  height: 250px;
+}
+
+
+
+
+
+.blog-text{
+
+  display: flex;
+  width: 50%;
+  float: left;
+  clear: left;
+  padding: 10%;
+  padding-bottom: 0;
+  
+
+}
+
+.blog-title{
+  width: 100%;  
+  font-weight: 200;
+  color: black;
+ 
+  font-family: 'Solway', sans-serif;
+  }
+
+  .blog-title:hover{text-decoration: none}
+
+.blog-description{
+    font-family: 'Solway', 'serif';
+    width: 100%;
+    font-size: 20px;  
+    color: darkgray;
+ }
+ 
+ .blog-description:hover{text-decoration: none}
+
+.blog-content{
+  padding: 10%;
+  padding-left: 0;
+  height: inherit;
+}
+
+.blog-content:hover{text-decoration: none}
+
+.read-time{
+  font-family: 'Roboto', 'serif';
+  font-size: 15px;
+  color: gray;
+
+}
+
+.read-time:hover{text-decoration: none}
+
+@media only screen and (max-width: 768px){
+  [class="blog-text" ] {
+font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  [class="blog-title" ] {
+font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  [class="blog-description" ] {
+font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  [class="read-time" ] {
+font-size: 7px;
+}
+}
+.lens-row {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 4px;
+}
+
+.lens-column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.lens-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .lens-column {
+   
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .lens-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.active
+{
+  color:red;
+  background-color: blue;
+}
+
+.about{
+  font-size: 30px;
+  font-family: 'solway', sans-serif;
+
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    font-size: 20px;
+  }}
+  .about-text{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #606060; 
+    line-height: 150%;
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    .about-text {
+      font-size: 10px;
+    }}
+  
+.connect{
+  padding: 2%;
+  display: flex;
+  height: 7%
+}
+
+.profile{ 
+  height: 500px;
+  width: auto;
+}
+
+.twitter{ 
+  height: 35px;
+  width: auto;
+}
+
+.twitter-widget
+{
+  padding-top: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+  [class="twitter" ] {
+  height: 30px;
+}}
+@media only screen and (max-width: 768px){
+  [class="profile" ] {
+  height: 200px;
+}}
+
