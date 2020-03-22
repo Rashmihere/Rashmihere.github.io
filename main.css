@@ -191,8 +191,8 @@ font-size: 12px;
       padding-left: 15px; } }
 
 .site-footer{
-/*height: 30%;
-/* background-color: #f2f2f2; */
+/*height: 30%; */
+background-color: #f2f2f2;
 margin-top: 2%;
 font-family: 'Roboto', serif;  color: black;
 font-size: 20px;
@@ -280,7 +280,7 @@ justify-content: center;
 
 .blogs-list{
    
-  /* height: 500px; */
+  min-height: 500px; 
    margin: 15%;
    margin-top: 2%;
   
