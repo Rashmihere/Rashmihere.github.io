@@ -286,6 +286,7 @@ justify-content: center;
   
    font-family: 'Arial', serif;
    margin-bottom: 2%;
+   list-style: none;
  
 }
 
@@ -391,13 +392,14 @@ margin: 8%;
 }
 
 .blog-post{
-  height: inherit;
-  padding: 10%;
-  
+ 
+  display: block;
+  color: black;
 
 
 }
 .blog-post:hover{text-decoration: none;}
+.blog-post:visited {text-decoration: none;}
 
 .blog-content:hover{text-decoration: none}
 
