@@ -389,6 +389,13 @@ margin: 8%;
   height: inherit;
 }
 
+.blog-post{
+  height: inherit;
+  padding: 10%;
+
+
+}
+
 .blog-content:hover{text-decoration: none}
 
 .read-time{
