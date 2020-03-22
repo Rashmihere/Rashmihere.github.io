@@ -377,7 +377,7 @@ margin: 8%;
   .blog-title:hover{text-decoration: none}
 
 .blog-description{
-    font-family: 'Solway', 'serif';
+    font-family: 'Arial', 'serif';
     width: 100%;
     font-size: 20px;  
     color: darkgray;
