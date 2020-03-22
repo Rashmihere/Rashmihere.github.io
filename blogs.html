@@ -52,11 +52,22 @@
   <h1>Blogs</h1>
 
   <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <ul>
     <li>
       <h2>
       <a class = "blog-post" href = "https://uxplanet.org/on-writing-well-as-a-product-manager-9d27cc2e319c" target = blank>
       On writing well as a product manager
       <a>
+      <span class = "blog-description">
+        Summary of book - On writing Well
+      </span>
       </h2>
   </li> 
     <li>
@@ -64,6 +75,9 @@
       <a class = "blog-post" href = "https://uxplanet.org/what-to-think-after-reading-dont-make-me-think-97f6b9ef1908" target = blank>
         What to think after reading “Don’t make me think”
       </a>
+      <span class = "blog-description">
+        Summary of book - Don't make me think
+      </span>
     </h2>
     </li>  
   </ul>
