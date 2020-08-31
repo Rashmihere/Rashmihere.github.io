@@ -1,0 +1,26 @@
+---
+layout: post
+title: I should have done that
+author: Rashmi
+
+---
+![](I-should-have-done-that.jpeg)
+
+Baffled by myself,
+I looked around for inspiration or let's say it as the NEXT hope.
+
+Ridiculously torn between whether to accept it as hope or not,
+I struggle with none other than my own muddling mind.
+
+My inchoate ideas yell frantically to take up,
+but the baggage of my past failures simply nod a NO
+
+After contemplating, I finally end this row.
+A ray of hope can guide my life- at least for a few days
+
+I can now sleep peacefully in this phase,
+to wake up tomorrow with an aim to chase.
+
+This shall continue till I flag the milestone
+boasting of my success in achieving or maybe just touching the goal.
+After which again starts a viscous cycle of hopes and milestones.
