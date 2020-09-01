@@ -166,7 +166,7 @@ font-size: 12px;
     cursor: pointer;
     float:center;
       padding: 5%;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Solway', serif';
     font-size: 15px;
   }
   .button:visited{ text-decoration: none; color: white}
@@ -194,7 +194,7 @@ font-size: 12px;
 /*height: 30%; */
 background-color: #f2f2f2;
 margin-top: 2%;
-font-family: 'Roboto', serif;  color: black;
+font-family: 'Solway', serif;  color: black;
 font-size: 20px;
 padding: 2%;
 display: flex;
@@ -284,7 +284,7 @@ justify-content: center;
    margin: 15%;
    margin-top: 2%;
   
-   font-family: 'Arial', serif;
+   font-family: 'Solway', serif;
    margin-bottom: 2%;
    list-style: none;
  
@@ -377,7 +377,7 @@ margin: 8%;
   .blog-title:hover{text-decoration: none}
 
 .blog-description{
-    font-family: 'Arial', 'serif';
+    font-family: 'Solway', serif;
     width: 100%;
     font-size: 20px;  
     color: darkgray;
@@ -404,7 +404,7 @@ margin: 8%;
 .blog-content:hover{text-decoration: none}
 
 .read-time{
-  font-family: 'Roboto', 'serif';
+  font-family: 'Solway', serif;
   font-size: 15px;
   color: gray;
 
