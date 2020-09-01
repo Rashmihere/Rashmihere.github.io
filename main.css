@@ -166,7 +166,7 @@ font-size: 12px;
     cursor: pointer;
     float:center;
       padding: 5%;
-    font-family: 'Solway', serif';
+    font-family: 'Solway', serif;
     font-size: 15px;
   }
   .button:visited{ text-decoration: none; color: white}
