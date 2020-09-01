@@ -82,7 +82,7 @@ font-size: 30px;
 .img-section{
   display: flex;
   /* height: inherit; */
-  width: 30%;
+  width: 50%;
   float: right;
   padding: 5%;    
 }
@@ -90,7 +90,7 @@ font-size: 30px;
 .text-section{
     display: flex;
     /* height: inherit; */
-    width: 30%;
+    width: 50%;
     float: left;
     clear: left;
     padding: 10%;
