@@ -26,7 +26,9 @@ hug the soul even tighter.. forever....
 
 Kudos to all such souls in making :)
 
-*Thanks for reading! 💛 💛 💛\
+* * * * *
+
+*Thanks for reading! 💛 💛 💛*
 
 > Let's connect and know each other more\
 > [Twitter](https://twitter.com/oyerashmi) | [Linkedin](https://www.linkedin.com/in/rashmi-shukla-7ba298104/)
