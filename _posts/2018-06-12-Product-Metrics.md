@@ -69,3 +69,8 @@ Often as Product Managers, we may want to measure a bunch of things and may ulti
 So, while deciding metrics (and so to say any goals in life), keep asking this one question
 
  **What am I optimising for?**
+
+ *Thanks for reading! 💛 💛 💛\
+
+> Let's connect and know each other more\
+> [Twitter](https://twitter.com/oyerashmi) | [Linkedin](https://www.linkedin.com/in/rashmi-shukla-7ba298104/)

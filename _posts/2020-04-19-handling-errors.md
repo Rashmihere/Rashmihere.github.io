@@ -104,7 +104,7 @@ Concluding with a famous quote in the book (*and one of my favorites):*
 > not for how we would wish them to behave."
 
 *Thanks for reading! 💛 💛 💛\
-Leave a comment below if you have any suggestions and feedback.*
+
 
 > Let's connect and know each other more\
 > [Twitter](https://twitter.com/oyerashmi) | [Linkedin](https://www.linkedin.com/in/rashmi-shukla-7ba298104/)
