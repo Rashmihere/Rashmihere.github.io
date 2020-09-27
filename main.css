@@ -68,7 +68,7 @@ font-size: 30px;
 
 .content{
      
-  margin: 15%;
+  width:60%;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -76,33 +76,17 @@ font-size: 30px;
   
 }
 
-@media only screen and (max-width: 768px){
-  [class="content"] {
-    
-   max-height: 100px; 
-   margin: 15%;
-  }
-
-
-
 .image{
     width: -webkit-fill-available;
 }
 
 .img-section{
   display: flex;
+  /* height: inherit; */
   width: 50%;
   float: right;
   padding: 5%;    
 }
-@media only screen and (max-width: 768px){
-  [class="img-section"] {
-font-size: 30px;
-}
-}
-
-
-
 
 .text-section{
     display: flex;
