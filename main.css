@@ -1,5 +1,6 @@
 
 body { font-family: 'Lato', 'serif'; color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+h1,h2,h3{font-family: 'Lato', 'serif'; color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 main { display: block; }
 
@@ -24,6 +25,15 @@ a:hover { text-decoration: none; }
 .border{
   box-shadow: 0 10px 20px 0px rgba(0,0,0,.03)
 }
+
+.links{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
 
 
 /* .page-banner
@@ -61,6 +71,7 @@ font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;  
+  max-width: 800px;
 }
 
 .image{
