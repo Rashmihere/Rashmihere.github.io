@@ -1,7 +1,7 @@
 
 
 /** Basic styling */
-body { font-family: 'Solway', 'serif'; color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font-family: 'Lato', 'serif'; color: black; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** `main` element */
 main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
@@ -56,7 +56,7 @@ a:hover { text-decoration: none; }
   padding-left: 10%;
   padding-top: 120px;
   color:cornsilk;
-  font-family: 'Solway', serif;
+  font-family: 'Lato', serif;
 
 }
 
@@ -108,7 +108,7 @@ font-size: 30px;
  
  .site-title {   
           
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     letter-spacing: 8px;
     font-size: 90px;    
     margin: 0;
@@ -122,7 +122,7 @@ font-size: 30px;
   }
 
   .text-title{
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     font-size: 40px;
     font-weight: 400;
      }
@@ -166,7 +166,7 @@ font-size: 12px;
     cursor: pointer;
     float:center;
       padding: 5%;
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     font-size: 15px;
   }
   .button:visited{ text-decoration: none; color: white}
@@ -194,7 +194,7 @@ font-size: 12px;
 /*height: 30%; */
 background-color: #f2f2f2;
 margin-top: 2%;
-font-family: 'Solway', serif;  color: black;
+font-family: 'Lato', serif;  color: black;
 font-size: 20px;
 padding: 2%;
 display: flex;
@@ -243,7 +243,7 @@ justify-content: center;
 } 
 .top-bar-element{
  
-  font-family: 'Bebas Neue', serif; 
+  font-family: 'lato', serif; 
   color: teal;
   text-align: center;
   vertical-align: center;
@@ -284,7 +284,7 @@ justify-content: center;
    margin: 15%;
    margin-top: 2%;
   
-   font-family: 'Solway', serif;
+   font-family: 'Lato', serif;
    margin-bottom: 2%;
    list-style: none;
  
@@ -370,13 +370,13 @@ margin: 8%;
   width: 100%;  
   font-weight: 200;
   color: black; 
-  font-family: 'Solway', sans-serif;
+  font-family: 'Lato', sans-serif;
   }
 
   .blog-title:hover{text-decoration: none}
 
 .blog-description{
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     width: 100%;
     font-size: 20px;  
     color: darkgray;
@@ -403,7 +403,7 @@ margin: 8%;
 .blog-content:hover{text-decoration: none}
 
 .read-time{
-  font-family: 'Solway', serif;
+  font-family: 'Lato', serif;
   font-size: 15px;
   color: gray;
 
@@ -479,7 +479,7 @@ font-size: 7px;
 
 .about{
   font-size: 30px;
-  font-family: 'solway', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 }
 
