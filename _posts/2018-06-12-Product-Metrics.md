@@ -72,7 +72,7 @@ So, while deciding metrics (and so to say any goals in life), keep asking this o
 
 * * * * *
 
-*Thanks for reading! 💛 💛 💛*
+Thanks for reading! 💛 💛 💛*
 
 > Let's connect and know each other more\
 > [Twitter](https://twitter.com/oyerashmi) | [Linkedin](https://www.linkedin.com/in/rashmi-shukla-7ba298104/)
