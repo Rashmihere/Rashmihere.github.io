@@ -304,7 +304,7 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.sitetitle {
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
 }
 
 .mainheading h1.posttitle {
@@ -329,7 +329,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     font-size: 20px;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -684,7 +684,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
 }
 
 .article-post .h1,
@@ -710,7 +710,7 @@ h6 {
 }
 
 .layout-page .article-post {
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     font-size: 15px;
 }
 
@@ -873,7 +873,7 @@ iframe {
     line-height: 1;
     padding: 2px 3px;
     width: 150px;
-    font-family: 'Solway', serif;
+    font-family: 'Lato', serif;
     text-align: center;
     border-radius: 3px;
     transition: all .4s;

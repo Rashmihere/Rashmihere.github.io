@@ -66,10 +66,10 @@ font-size: 30px;
 }
 }
 
-.container{
+.content{
      
-  width:100%;
-  margin: 2%;
+  width:60%;
+  margin: auto;
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
@@ -109,8 +109,7 @@ font-size: 30px;
  .site-title {   
           
     font-family: 'Lato', serif;
-    letter-spacing: 8px;
-    font-size: 90px;    
+    font-size: 48px;    
     margin: 0;
     vertical-align: middle;
   }
