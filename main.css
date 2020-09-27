@@ -79,6 +79,25 @@ font-size: 30px;
     width: -webkit-fill-available;
 }
 
+.site-description{
+  display: flex;
+
+}
+
+.bio{
+  flex: 0, 0, 80%;
+
+}
+
+
+
+
+
+
+
+
+
+
 .img-section{
   display: flex;
   /* height: inherit; */
