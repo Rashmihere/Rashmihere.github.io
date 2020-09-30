@@ -99,8 +99,7 @@ width: 80%;
     width: 50%;
     float: left;
     clear: left;
-    padding-top: 10%;
-    padding-bottom: 0;
+    
  }
  
  @media only screen and (max-width: 768px){
