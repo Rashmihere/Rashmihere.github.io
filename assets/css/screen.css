@@ -308,9 +308,26 @@ span.post-read-more a:hover {
 }
 
 .mainheading h1.posttitle {
+    font-family: 'Lato', serif;
     font-weight: 700;
     margin-bottom: 1rem;
+    font-size: 24px;
 }
+
+@media only screen and (max-width: 768px){
+    [class="mainheading h1.posttitle"] {
+  font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 /* .footer {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
