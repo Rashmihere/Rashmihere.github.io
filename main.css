@@ -379,7 +379,7 @@ margin: 8%;
 .blog-description{
     font-family: 'Lato', serif;
     width: 100%;
-    font-size: 20px;  
+    font-size: 18px;  
     color: darkgray;
  }
  
@@ -395,9 +395,23 @@ margin: 8%;
  
   display: block;
   color: black;
+  font-size: 24px;
 
 
 }
+
+
+@media only screen and (max-width: 768px){
+  [class="blog-post" ] {
+font-size: 20px;
+}
+}
+
+
+
+
+
+
 .blog-post:hover{text-decoration: none;}
 .blog-post:visited {text-decoration: none;}
 
@@ -426,7 +440,7 @@ font-size: 20px;
 
 @media only screen and (max-width: 768px){
   [class="blog-description" ] {
-font-size: 20px;
+font-size: 16px;
 }
 }
 
