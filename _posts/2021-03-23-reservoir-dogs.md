@@ -10,6 +10,8 @@ Recently, I have been trying to work on my storytelling skills.
 
 In my hunt for resources, I met this brilliant piece of storytelling - "The commode story" (Yes, I was living under the rock). It is an excerpt from the classic movie " The Reservoir Dogs" by Tarantino.
 
+![image](./assets/images/reservoir-dogs.jpeg)
+
 
 **Context (Spoiler Alert)**
 
